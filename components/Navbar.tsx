@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const Navbar = () => {
     return(
-        <nav className="flexBetween max-container padding-container relative z-30 py-5">
+        <nav className="flexBetween max-container padding-container relative z-30 py-5 bg-transparent">
             <Link href="/">
                 <Image src="/logo3.jpg" alt="logo" width={150} height={50}/>                
             </Link>
@@ -27,6 +27,14 @@ const Navbar = () => {
                         variant="btn_dark_green"
                     />
             </div>
+
+            <Image 
+                src="/menu.svg"
+                alt="menu"
+                width={32}
+                height={32}
+                className="inline-block cursor-pointer lg:hidden"
+            />
         </nav>
     )
 }
