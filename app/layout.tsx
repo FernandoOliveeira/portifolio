@@ -16,15 +16,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body> 
+      <body className='bg-gradient-to-tl from-cyan-900 via-cyan-800 to-slate-900'> 
         <Navbar />
         
-        <main className='relative overflow-hidden'>
+        <main className="relative overflow-hidden " >
           {children}
         </main>
         
         <Footer />
-      </body>
+      </body >
     </html>
   )
 }
