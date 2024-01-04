@@ -1,7 +1,13 @@
+import Github from "../components/Github";
+import Hero from "../components/Hero";
+import Projects from "../components/Projects";
+
 export default function Home() {
   return (
-    <h1 className="font-bold text-teal-500 text-2xl">
-      Hello World!
-    </h1>
+    <>
+      <Hero />
+      <Projects />
+      <Github />
+    </>
   )
 }
