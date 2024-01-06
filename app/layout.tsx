@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-gradient-to-tl from-cyan-900 via-cyan-800 to-slate-900'> 
+      <body className='bg-gradient-to-tl from-red-300 via-cyan-800 to-slate-900'> 
         <Navbar />
         
         <main className="relative overflow-hidden " >

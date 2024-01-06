@@ -8,7 +8,7 @@ const Navbar = () => {
     return(
         <nav className="flexBetween max-container padding-container relative z-30 py-5 bg-transparent">
             <Link href="/">
-                <Image src="/logo3.jpg" alt="logo" width={150} height={50}/>                
+                <Image src="/logo4.jpg" alt="logo" width={150} height={50}/>                
             </Link>
 
             <ul className="hidden h-full gap-12 lg:flex">
